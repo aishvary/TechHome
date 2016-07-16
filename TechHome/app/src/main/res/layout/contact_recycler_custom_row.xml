@@ -39,13 +39,13 @@
         android:layout_height="wrap_content">
 
         <com.neopixl.pixlui.components.textview.TextView
-            android:id="@+id/txtName"
+            android:id="@+id/txtName1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginLeft="15dip"
             android:layout_marginRight="15dip"
             android:layout_marginTop="10dip"
-            android:layout_toRightOf="@+id/imgPhoto"
+            android:layout_toRightOf="@+id/imgPhoto1"
             android:padding="5dip"
             android:text="Siddhartha Tyagi"
             android:textColor="@color/colorPrimary"
@@ -55,8 +55,8 @@
             android:id="@+id/txtDesignation"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/txtName"
-            android:layout_toRightOf="@+id/imgPhoto"
+            android:layout_below="@+id/txtName1"
+            android:layout_toRightOf="@+id/imgPhoto1"
             android:layout_marginBottom="1dip"
             android:layout_marginLeft="15dip"
             android:layout_marginRight="15dip"
@@ -67,42 +67,12 @@
             android:textColor="@color/black"
             android:textSize="16sp" />
 
-        <com.neopixl.pixlui.components.textview.TextView
-            android:id="@+id/txtDegree"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtDesignation"
-            android:layout_toRightOf="@+id/imgPhoto"
-            android:layout_marginBottom="1dip"
-            android:layout_marginLeft="15dip"
-            android:layout_marginRight="15dip"
-            android:layout_marginTop="1dip"
-            android:padding="5dip"
-            android:text="(B.sc, B.tech)"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
-
-        <com.neopixl.pixlui.components.textview.TextView
-            android:id="@+id/txtAddress"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/txtDegree"
-            android:layout_toRightOf="@+id/imgPhoto"
-            android:layout_marginBottom="1dip"
-            android:layout_marginLeft="15dip"
-            android:layout_marginRight="15dip"
-            android:layout_marginTop="1dip"
-            android:padding="5dip"
-            android:text="sidtyagi92@gmail.com"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
-
 
         <com.neopixl.pixlui.components.imageview.ImageView
-            android:layout_width="100dip"
-            android:layout_height="140dip"
+            android:layout_width="75dip"
+            android:layout_height="100dip"
             android:layout_marginLeft="8dip"
-            android:id="@+id/imgPhoto"
+            android:id="@+id/imgPhoto1"
             android:src="@drawable/siddhartha_tyagi"
             android:layout_marginBottom="5dip"
             android:layout_marginTop="5dip"
@@ -187,7 +157,7 @@
 
 
             <com.neopixl.pixlui.components.imageview.ImageView
-                android:layout_width="100dip"
+                android:layout_width="75dip"
                 android:layout_height="100dip"
                 android:layout_marginLeft="8dip"
                 android:id="@+id/imgPhoto1"
@@ -245,7 +215,7 @@
                 android:textSize="16sp" />
 -->
             <com.neopixl.pixlui.components.textview.TextView
-                android:id="@+id/txtDegree2"
+                android:id="@+id/txtDesignation2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_below="@+id/txtName2"
@@ -254,10 +224,12 @@
                 android:layout_marginLeft="15dip"
                 android:layout_marginRight="15dip"
                 android:layout_marginTop="1dip"
+                android:textStyle="bold"
                 android:padding="5dip"
-                android:text="Co-founder"
+                android:text="Co-Founder"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
+
 
             <!--<com.neopixl.pixlui.components.textview.TextView-->
             <!--android:id="@+id/txtEmail1"-->
@@ -276,7 +248,7 @@
 
 
             <com.neopixl.pixlui.components.imageview.ImageView
-                android:layout_width="100dip"
+                android:layout_width="75dip"
                 android:layout_height="100dip"
                 android:layout_marginLeft="8dip"
                 android:src="@drawable/shivam_tyagi"
@@ -284,6 +256,47 @@
                 android:layout_marginBottom="5dip"
                 android:layout_marginTop="5dip"
                 />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtName4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="10dip"
+                android:layout_toRightOf="@+id/imgPhoto4"
+                android:padding="5dip"
+                android:text="Prateek Kapil"
+                android:textColor="@color/colorPrimary"
+                android:textSize="24sp" />
+
+            <com.neopixl.pixlui.components.textview.TextView
+                android:id="@+id/txtDesignation4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtName2"
+                android:layout_toRightOf="@+id/imgPhoto2"
+                android:layout_marginBottom="1dip"
+                android:layout_marginLeft="15dip"
+                android:layout_marginRight="15dip"
+                android:layout_marginTop="1dip"
+                android:textStyle="bold"
+                android:padding="5dip"
+                android:text="Co-Founder"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+            <com.neopixl.pixlui.components.imageview.ImageView
+                android:layout_width="75dip"
+                android:layout_height="100dip"
+                android:layout_marginLeft="8dip"
+                android:src="@drawable/mohan_banal"
+                android:id="@+id/imgPhoto4"
+                android:layout_marginBottom="5dip"
+                android:layout_marginTop="5dip"
+                />
+
+
+
         </RelativeLayout>
     </android.support.v7.widget.CardView>
 
